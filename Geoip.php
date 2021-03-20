@@ -9,7 +9,7 @@
 
 namespace kostikpenzin\geoip;
 
-class Sypexgeo
+class Geoip
 {
     /**
      * @var \SxGeo instance.

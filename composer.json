@@ -28,7 +28,7 @@
     },
     "autoload": {
         "psr-4": {
-            "kostikpenzin\\geoip\\": ""
+            "kostikpenzin\\yii2-geoip\\": ""
         }
     }
 }
