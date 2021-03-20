@@ -1,5 +1,5 @@
-# yii2-sypexgeocity
-Sypex Geo City for Yii2
+# yii2-geoip
+Geo ip for Yii2
 
 Sypex Geo is an IP location based product from the creators of Sypex Dumper. Having received the IP-address, Sypex Geo gives out information about the visitor's location - country, region, city, geographic coordinates.
 
