@@ -113,6 +113,8 @@ class Geoip
             $ip = getenv('HTTP_FORWARDED_FOR');
         elseif(getenv('HTTP_FORWARDED'))
             $ip = getenv('HTTP_FORWARDED');
+        elseif(getenv('HTTP_CF_CONNECTING_IP')) // for cloudflare.com
+            $ip = getenv('HTTP_CF_CONNECTING_IP');
         else
             $ip = getenv('REMOTE_ADDR');
 
