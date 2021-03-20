@@ -1,5 +1,5 @@
 <?php
-    $geo = new \kostikpenzin\geoip\Sypexgeo();
+    $geo = new \kostikpenzin\geoip\Geoip();
 
     // get by remote IP
     $geo->get();                // also returned geo data as array
