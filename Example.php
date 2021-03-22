@@ -10,5 +10,5 @@
     var_dump($geo->city);    echo '<br>';
 
     // get by custom IP
-    $geo->get('88.200.214.22');
+    print_r($geo->get('88.200.214.22'));
 ?>
