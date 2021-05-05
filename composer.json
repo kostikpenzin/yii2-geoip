@@ -4,7 +4,7 @@
     "type": "yii2-extension",
     "keywords": ["yii2","sypexgeo","geo","geolocation","geoip","geoip-php","php7"],
     "homepage": "https://github.com/kostikpenzin/yii2-geoip",
-    "license": "BSD-2-Clause",
+    "license": "MIT",
     "authors": [
         {
             "name": "zapimir",
