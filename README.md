@@ -1,4 +1,12 @@
 # yii2-geoip
+
+
+[![Latest Stable Version](https://poser.pugx.org/kostikpenzin/yii2-geoip/v/stable)](https://packagist.org/packages/kostikpenzin/yii2-geoip)
+[![Total Downloads](https://poser.pugx.org/kostikpenzin/yii2-geoip/downloads)](https://packagist.org/packages/kostikpenzin/yii2-geoip)
+[![Latest Unstable Version](https://poser.pugx.org/kostikpenzin/yii2-geoip/v/unstable)](https://packagist.org/packages/kostikpenzin/yii2-geoip)
+[![License](https://poser.pugx.org/kostikpenzin/yii2-geoip/license)](https://packagist.org/packages/kostikpenzin/yii2-geoip)
+[![Monthly Downloads](https://poser.pugx.org/kostikpenzin/yii2-geoip/d/monthly)](https://packagist.org/packages/kostikpenzin/yii2-geoip)
+
 Geo ip for Yii2
 
 Sypex Geo is an IP location based product from the creators of Sypex Dumper. Having received the IP-address, Sypex Geo gives out information about the visitor's location - country, region, city, geographic coordinates.
