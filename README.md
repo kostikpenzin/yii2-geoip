@@ -1,6 +1,5 @@
 # yii2-geoip
 
-
 [![Latest Stable Version](https://poser.pugx.org/kostikpenzin/yii2-geoip/v/stable)](https://packagist.org/packages/kostikpenzin/yii2-geoip)
 [![Total Downloads](https://poser.pugx.org/kostikpenzin/yii2-geoip/downloads)](https://packagist.org/packages/kostikpenzin/yii2-geoip)
 [![Latest Unstable Version](https://poser.pugx.org/kostikpenzin/yii2-geoip/v/unstable)](https://packagist.org/packages/kostikpenzin/yii2-geoip)
@@ -15,13 +14,12 @@ Sypex Geo - distributed under the BSD license, that is, it is completely free.
 
 As a database, Sypex Geo uses a binary file of its own format. This format is open and universal. When developing the format, a lot of work was done to optimize the algorithm. Due to this, Sypex Geo works much faster than competitors, consumes less memory, and also produces fewer disk accesses (due to which, on busy servers, the difference is even greater in favor of Sypex Geo).
 
-Direct links to the database: 
-  * Sypex Geo City DB (free) - http://sypexgeo.net/files/SxGeoCity_utf8.zip
-  * Sypex Geo City Max DB - https://sypexgeo.net/ru/buy/
+Direct links to the database:
 
+- Sypex Geo City DB (free) - http://sypexgeo.net/files/SxGeoCity_utf8.zip
+- Sypex Geo City Max DB - https://sypexgeo.net/ru/buy/
 
-Installation
-------------
+## Installation
 
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
 
@@ -37,13 +35,11 @@ or add
 "kostikpenzin/yii2-geoip": "*"
 ```
 
-to the require section of your `composer.json` file.  
+to the require section of your `composer.json` file.
 
+## Usage
 
-Usage
------
-
-Once the extension is installed, simply use it in your code by  :
+Once the extension is installed, simply use it in your code by :
 
 ```php
 <?php
@@ -61,13 +57,15 @@ Once the extension is installed, simply use it in your code by  :
     print_r($geo->get('88.200.214.22'));
 ?>
 ```
+
 Information about country, region and city returned as array.
 For example:
+
 ```php
 
 array (
   'ip' => '135.181.47.216',
-  'city' => 
+  'city' =>
   array (
     'id' => 658225,
     'lat' => 60.16952,
@@ -85,7 +83,7 @@ array (
     'tel' => '',
     'post' => '',
   ),
-  'region' => 
+  'region' =>
   array (
     'id' => 828987,
     'lat' => 60.83,
@@ -104,7 +102,7 @@ array (
     'vk' => 0,
     'utc' => 2,
   ),
-  'country' => 
+  'country' =>
   array (
     'id' => 69,
     'iso' => 'FI',
@@ -137,4 +135,3 @@ array (
 )
 
 ```
-

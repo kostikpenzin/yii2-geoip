@@ -2,11 +2,10 @@
     "name": "kostikpenzin/yii2-geoip",
     "description": "Yii2 geoip extension for Sypex Geo API",
     "type": "yii2-extension",
-    "keywords": ["yii2","sypexgeo","geo","geolocation","geoip","geoip-php","php7"],
+    "keywords": ["yii2", "sypexgeo", "geo", "geolocation", "geoip", "geoip-php", "php7"],
     "homepage": "https://github.com/kostikpenzin/yii2-geoip",
     "license": "BSD-2-Clause",
-    "authors": [
-        {
+    "authors": [{
             "name": "zapimir",
             "email": "zapimir@zapimir.net"
         },

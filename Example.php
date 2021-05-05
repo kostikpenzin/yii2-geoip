@@ -11,4 +11,3 @@
 
     // get by custom IP
     print_r($geo->get('88.200.214.22'));
-?>
